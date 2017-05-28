@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5273CB541C63B46D005FA9F5 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CB531C63B46D005FA9F5 /* GameKit.framework */; };
+		5273CB5B1C63C7F7005FA9F5 /* AT5Pulsos.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB5A1C63C7F7005FA9F5 /* AT5Pulsos.m */; };
+		5273CB711C63FDEB005FA9F5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB5F1C63FDEB005FA9F5 /* FMDatabase.m */; };
+		5273CB721C63FDEB005FA9F5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB611C63FDEB005FA9F5 /* FMDatabaseAdditions.m */; };
+		5273CB731C63FDEB005FA9F5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB631C63FDEB005FA9F5 /* FMDatabasePool.m */; };
+		5273CB741C63FDEB005FA9F5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB651C63FDEB005FA9F5 /* FMDatabaseQueue.m */; };
+		5273CB751C63FDEB005FA9F5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB681C63FDEB005FA9F5 /* FMResultSet.m */; };
+		5273CB761C63FDEB005FA9F5 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB6A1C63FDEB005FA9F5 /* Operation.m */; };
+		5273CB771C63FDEB005FA9F5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB6C1C63FDEB005FA9F5 /* Reachability.m */; };
+		5273CB781C63FDEB005FA9F5 /* Synchronization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB6E1C63FDEB005FA9F5 /* Synchronization.m */; };
+		5273CB791C63FDEB005FA9F5 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273CB701C63FDEB005FA9F5 /* WebService.m */; };
+		5273CB7B1C640B78005FA9F5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CB7A1C640B78005FA9F5 /* libc++.tbd */; };
+		5273CB7E1C640B9C005FA9F5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CB7C1C640B9C005FA9F5 /* libsqlite3.0.tbd */; };
+		5273CB7F1C640B9C005FA9F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CB7D1C640B9C005FA9F5 /* libz.tbd */; };
+		5273CB811C640BB5005FA9F5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CB801C640BB5005FA9F5 /* libicucore.tbd */; };
+		5273CB831C640BC0005FA9F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CB821C640BC0005FA9F5 /* SystemConfiguration.framework */; };
 		5287F3191C62B93F006F61B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5287F3181C62B93F006F61B9 /* main.m */; };
 		5287F31C1C62B93F006F61B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5287F31B1C62B93F006F61B9 /* AppDelegate.m */; };
 		5287F31F1C62B93F006F61B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5287F31E1C62B93F006F61B9 /* ViewController.m */; };
@@ -15,6 +31,7 @@
 		5287F3271C62B93F006F61B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5287F3251C62B93F006F61B9 /* LaunchScreen.storyboard */; };
 		5287F3321C62B93F006F61B9 /* SignalRAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5287F3311C62B93F006F61B9 /* SignalRAppTests.m */; };
 		5287F33D1C62B93F006F61B9 /* SignalRAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5287F33C1C62B93F006F61B9 /* SignalRAppUITests.m */; };
+		FA2B84151A638B480F8E595C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E02CBC8531441F8334895A5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BBAD993C17A41DDA5F5BAC2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4E02CBC8531441F8334895A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5273CB521C63B409005FA9F5 /* SignalRApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SignalRApp.entitlements; sourceTree = "<group>"; };
+		5273CB531C63B46D005FA9F5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		5273CB591C63C7F7005FA9F5 /* AT5Pulsos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AT5Pulsos.h; sourceTree = "<group>"; };
+		5273CB5A1C63C7F7005FA9F5 /* AT5Pulsos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AT5Pulsos.m; sourceTree = "<group>"; };
+		5273CB5E1C63FDEB005FA9F5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5273CB5F1C63FDEB005FA9F5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5273CB601C63FDEB005FA9F5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5273CB611C63FDEB005FA9F5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5273CB621C63FDEB005FA9F5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5273CB631C63FDEB005FA9F5 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5273CB641C63FDEB005FA9F5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5273CB651C63FDEB005FA9F5 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5273CB661C63FDEB005FA9F5 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5273CB671C63FDEB005FA9F5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5273CB681C63FDEB005FA9F5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5273CB691C63FDEB005FA9F5 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		5273CB6A1C63FDEB005FA9F5 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		5273CB6B1C63FDEB005FA9F5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5273CB6C1C63FDEB005FA9F5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5273CB6D1C63FDEB005FA9F5 /* Synchronization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synchronization.h; sourceTree = "<group>"; };
+		5273CB6E1C63FDEB005FA9F5 /* Synchronization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Synchronization.m; sourceTree = "<group>"; };
+		5273CB6F1C63FDEB005FA9F5 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		5273CB701C63FDEB005FA9F5 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		5273CB7A1C640B78005FA9F5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5273CB7C1C640B9C005FA9F5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5273CB7D1C640B9C005FA9F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5273CB801C640BB5005FA9F5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		5273CB821C640BC0005FA9F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5287F3141C62B93F006F61B9 /* SignalRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5287F3181C62B93F006F61B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5287F31A1C62B93F006F61B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +98,7 @@
 		5287F3381C62B93F006F61B9 /* SignalRAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalRAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5287F33C1C62B93F006F61B9 /* SignalRAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalRAppUITests.m; sourceTree = "<group>"; };
 		5287F33E1C62B93F006F61B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEA24ADA32D16ECFE17915F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5273CB831C640BC0005FA9F5 /* SystemConfiguration.framework in Frameworks */,
+				5273CB811C640BB5005FA9F5 /* libicucore.tbd in Frameworks */,
+				5273CB7E1C640B9C005FA9F5 /* libsqlite3.0.tbd in Frameworks */,
+				5273CB7F1C640B9C005FA9F5 /* libz.tbd in Frameworks */,
+				5273CB7B1C640B78005FA9F5 /* libc++.tbd in Frameworks */,
+				FA2B84151A638B480F8E595C /* libPods.a in Frameworks */,
+				5273CB541C63B46D005FA9F5 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +133,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08BA8E03F9903435345BD565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5273CB821C640BC0005FA9F5 /* SystemConfiguration.framework */,
+				5273CB801C640BB5005FA9F5 /* libicucore.tbd */,
+				5273CB7C1C640B9C005FA9F5 /* libsqlite3.0.tbd */,
+				5273CB7D1C640B9C005FA9F5 /* libz.tbd */,
+				5273CB7A1C640B78005FA9F5 /* libc++.tbd */,
+				5273CB531C63B46D005FA9F5 /* GameKit.framework */,
+				4E02CBC8531441F8334895A5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5273CB5D1C63FDA0005FA9F5 /* DatabaseSync */ = {
+			isa = PBXGroup;
+			children = (
+				5273CB5E1C63FDEB005FA9F5 /* FMDatabase.h */,
+				5273CB5F1C63FDEB005FA9F5 /* FMDatabase.m */,
+				5273CB601C63FDEB005FA9F5 /* FMDatabaseAdditions.h */,
+				5273CB611C63FDEB005FA9F5 /* FMDatabaseAdditions.m */,
+				5273CB621C63FDEB005FA9F5 /* FMDatabasePool.h */,
+				5273CB631C63FDEB005FA9F5 /* FMDatabasePool.m */,
+				5273CB641C63FDEB005FA9F5 /* FMDatabaseQueue.h */,
+				5273CB651C63FDEB005FA9F5 /* FMDatabaseQueue.m */,
+				5273CB661C63FDEB005FA9F5 /* FMDB.h */,
+				5273CB671C63FDEB005FA9F5 /* FMResultSet.h */,
+				5273CB681C63FDEB005FA9F5 /* FMResultSet.m */,
+				5273CB691C63FDEB005FA9F5 /* Operation.h */,
+				5273CB6A1C63FDEB005FA9F5 /* Operation.m */,
+				5273CB6B1C63FDEB005FA9F5 /* Reachability.h */,
+				5273CB6C1C63FDEB005FA9F5 /* Reachability.m */,
+				5273CB6D1C63FDEB005FA9F5 /* Synchronization.h */,
+				5273CB6E1C63FDEB005FA9F5 /* Synchronization.m */,
+				5273CB6F1C63FDEB005FA9F5 /* WebService.h */,
+				5273CB701C63FDEB005FA9F5 /* WebService.m */,
+			);
+			name = DatabaseSync;
+			sourceTree = "<group>";
+		};
 		5287F30B1C62B93E006F61B9 = {
 			isa = PBXGroup;
 			children = (
+				5273CB5D1C63FDA0005FA9F5 /* DatabaseSync */,
 				5287F3161C62B93F006F61B9 /* SignalRApp */,
 				5287F3301C62B93F006F61B9 /* SignalRAppTests */,
 				5287F33B1C62B93F006F61B9 /* SignalRAppUITests */,
 				5287F3151C62B93F006F61B9 /* Products */,
+				67983ED718FA05A3F89DBC8F /* Pods */,
+				08BA8E03F9903435345BD565 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +199,11 @@
 		5287F3161C62B93F006F61B9 /* SignalRApp */ = {
 			isa = PBXGroup;
 			children = (
+				5273CB521C63B409005FA9F5 /* SignalRApp.entitlements */,
 				5287F31A1C62B93F006F61B9 /* AppDelegate.h */,
 				5287F31B1C62B93F006F61B9 /* AppDelegate.m */,
+				5273CB591C63C7F7005FA9F5 /* AT5Pulsos.h */,
+				5273CB5A1C63C7F7005FA9F5 /* AT5Pulsos.m */,
 				5287F31D1C62B93F006F61B9 /* ViewController.h */,
 				5287F31E1C62B93F006F61B9 /* ViewController.m */,
 				5287F3201C62B93F006F61B9 /* Main.storyboard */,
@@ -140,6 +241,15 @@
 			path = SignalRAppUITests;
 			sourceTree = "<group>";
 		};
+		67983ED718FA05A3F89DBC8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AEA24ADA32D16ECFE17915F /* Pods.debug.xcconfig */,
+				2BBAD993C17A41DDA5F5BAC2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5287F3411C62B93F006F61B9 /* Build configuration list for PBXNativeTarget "SignalRApp" */;
 			buildPhases = (
+				30AD39FBE87EF806ECDC05D2 /* Check Pods Manifest.lock */,
 				5287F3101C62B93F006F61B9 /* Sources */,
 				5287F3111C62B93F006F61B9 /* Frameworks */,
 				5287F3121C62B93F006F61B9 /* Resources */,
+				5A226B36D2F1A3576ADAD7AD /* Embed Pods Frameworks */,
+				6CAEEB61B727778C80D6069B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +320,15 @@
 				TargetAttributes = {
 					5287F3131C62B93F006F61B9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HUS5BU4E53;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
 					};
 					5287F32C1C62B93F006F61B9 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -265,14 +387,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30AD39FBE87EF806ECDC05D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A226B36D2F1A3576ADAD7AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CAEEB61B727778C80D6069B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5287F3101C62B93F006F61B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5287F31F1C62B93F006F61B9 /* ViewController.m in Sources */,
+				5273CB741C63FDEB005FA9F5 /* FMDatabaseQueue.m in Sources */,
+				5273CB781C63FDEB005FA9F5 /* Synchronization.m in Sources */,
 				5287F31C1C62B93F006F61B9 /* AppDelegate.m in Sources */,
+				5273CB771C63FDEB005FA9F5 /* Reachability.m in Sources */,
+				5273CB5B1C63C7F7005FA9F5 /* AT5Pulsos.m in Sources */,
+				5273CB711C63FDEB005FA9F5 /* FMDatabase.m in Sources */,
+				5273CB731C63FDEB005FA9F5 /* FMDatabasePool.m in Sources */,
+				5273CB751C63FDEB005FA9F5 /* FMResultSet.m in Sources */,
+				5273CB761C63FDEB005FA9F5 /* Operation.m in Sources */,
 				5287F3191C62B93F006F61B9 /* main.m in Sources */,
+				5273CB721C63FDEB005FA9F5 /* FMDatabaseAdditions.m in Sources */,
+				5273CB791C63FDEB005FA9F5 /* WebService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +591,35 @@
 		};
 		5287F3421C62B93F006F61B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEA24ADA32D16ECFE17915F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SignalRApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gtm.SignalRApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5287F3431C62B93F006F61B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBAD993C17A41DDA5F5BAC2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SignalRApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gtm.SignalRApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +690,7 @@
 				5287F3431C62B93F006F61B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5287F3441C62B93F006F61B9 /* Build configuration list for PBXNativeTarget "SignalRAppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +699,7 @@
 				5287F3461C62B93F006F61B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5287F3471C62B93F006F61B9 /* Build configuration list for PBXNativeTarget "SignalRAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +708,7 @@
 				5287F3491C62B93F006F61B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,13 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "Operation.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+{
+    NSTimer *Timer;
+    UIBackgroundTaskIdentifier taskID;
+}
+@synthesize sync;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -36,10 +41,41 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    NSLog(@"\r\r-->> BackgroundTask Proceso Inicializado <<--\r\r");
+    [self performSelector:@selector(startTimedTask) withObject:nil afterDelay:0.0];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)startTimedTask
+{
+    Timer = [NSTimer scheduledTimerWithTimeInterval:/*60.0*/180.0 target:self selector:@selector(performBackgroundTask) userInfo:nil repeats:YES];
+}
+
+- (void)performBackgroundTask
+{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        // Realiza trabajo en segundo plano - BackgroundTask
+        /*dispatch_async(dispatch_get_main_queue(), ^{
+         // Actualización de la interfaz de usuario - Update UI
+         preference = [NSUserDefaults standardUserDefaults];
+         if (([[NSUserDefaults standardUserDefaults]objectForKey:@"Key"] != nil)) {
+         
+         }
+         });*/
+        dispatch_async(dispatch_get_main_queue(), ^{
+            // Actualización de la interfaz de usuario - Update UI
+            if ([sync getStatusConnection] == Operation.CONNECTION_STATUS_WIFI_OK || [sync getStatusConnection] == Operation.CONNECTION_STATUS_MOBILE_OK)
+            {
+                [sync ApplyChanges];
+                [sync clearQueue];
+                self.sync.syncFinished = YES;
+                NSLog(@"\r\r-->> BackgroundTask Proceso Finalizado <<--\r\r");
+            }
+        });
+    });
 }
 
 @end
